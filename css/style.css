@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:ital,wght@1,900&display=swap");
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin:80px 0;
+}
+
+.svgss img{
+    width: 50vw;
+}
+
+.letra h2{
+    font-family: 'Lato';
+    font-weight: 200;
+    color: #ff9900;
+    font-size: 300%;
+    margin-bottom:1px;
+}
+
+.letra h3{
+    color: #707070;
+    font-family:'Karla';
+    font-size: 150%;
+    margin-top: 0;
+}
+
+.academy{
+    display: flex;
+    justify-content: center;
+}
+
+.academy .objective{
+    width: 50vw;
+    height: 500px;
+}
+
+
+.academy p{
+    width: 600px;
+    text-align: center;
+}
+
+.parrafo {
+    width: 50vw;
+    background: darkgrey;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg{
+    width: 12vw;
+}
+
+.parrafo p{
+    text-align: center;
+    margin: auto;
+    width: 30vw;
+    margin-top: 10px;
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 120%;
+}
+
+.parrafo2 {
+    width: 50vw;
+    background: #ff9900;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafo2 img{
+    width: 20vw;
+}
+
+.parrafo2 p{
+    text-align: center;
+    margin: auto;
+    width: 30vw;
+    margin-top: 10px;
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 120%;
+}

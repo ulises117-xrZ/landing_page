@@ -1,0 +1,178 @@
+:root {
+    --black1: #17202a;
+    --black2: #1c2833;
+    --gray1: #d5d8dc;
+    --gray2: #eaecee;
+    --white1: #eaeded;
+    --white2: #f4f6f6;
+    --orange: #ff9900;
+    --purple2: #f4f6f6;
+}
+
+@import url('https://fonts.googleapis.com/css2? familia,Permanente+Marcador&display-swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:ital,wght@1,900&display=swap");
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+
+.header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+
+.header__img a {
+    font-family: 'Lato';
+    
+    color:#707070;
+    font-size: 250%;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.span{
+    font-family: 'Karla' ;
+    font-weight: 400;
+}
+
+.header__link {
+    display: flex;
+    font-size: 160%;
+}
+
+.header__link{
+    padding: 0 15px;
+}
+
+
+.header__link li #here{
+    background-color: #f14d0c;
+    /* padding: 10px 15px; */
+    border-radius: 50px;
+    /* font-size: 180%; */
+}
+.header__link li:hover>#here{
+    background:#707070 ;
+}
+
+
+.header__link-li a {
+    padding: 0 15px;
+    color: #fff;
+    font-size: 130%;
+    /* display: flex; */
+    justify-content: center;
+    background:var(--orange) ;
+    margin-left: 25px;
+    border-radius: 50px;
+
+}
+
+.header__link-li:hover>a{
+    background: #707070;
+    transition: all 0.5s
+}
+
+/* Styles footer */
+.footer {
+    background: var(--white2);
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer__info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 50px;
+}
+
+
+.footer__info-net {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.footer__info-net img {
+    width: 100px;
+}
+
+.footer__info-net a .fab {
+    font-size: 35px;
+    color: #909497;
+    margin-left: 15px;
+}
+
+.footer__info-net a > .fab:hover {
+    color: #ff9900;
+    transition: all 0.5s;
+}
+
+.footer__info-author p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__info-author h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--black2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer__info-politics {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__info-politics > a {
+    padding-bottom: 5px;
+    color: #707070;
+}
+
+.footer__info-politics > a:hover {
+    text-decoration: underline;
+}
+
+.footer__copy {
+    background: #ff9900;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__copy p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer__info-net img{
+    border-radius: 50px;
+}
+
+.Email a{
+    color: #707070;
+}
+
+.Email a:hover{
+    text-decoration: underline;
+}

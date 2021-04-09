@@ -23,7 +23,7 @@ a {
 .letra h2{
     font-family: 'Lato';
     font-weight: 200;
-    color: #ff9900;
+    color: var(--principal);
     font-size: 300%;
     margin-bottom:1px;
 }
@@ -77,7 +77,7 @@ a {
 
 .parrafo2 {
     width: 50vw;
-    background: #ff9900;
+    background: var(--principal);
     height: 500px;
     text-align: center;
     display: flex;

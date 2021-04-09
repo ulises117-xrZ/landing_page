@@ -5,7 +5,8 @@
     --gray2: #eaecee;
     --white1: #eaeded;
     --white2: #f4f6f6;
-    --orange: #ff9900;
+    --principal:  #00d9ff;
+    --hovermoda: #0099ff;
     --purple2: #f4f6f6;
 }
 
@@ -59,7 +60,7 @@
 
 
 .header__link li #here{
-    background-color: #f14d0c;
+    background-color: var(--hovermoda);
     /* padding: 10px 15px; */
     border-radius: 50px;
     /* font-size: 180%; */
@@ -75,7 +76,7 @@
     font-size: 130%;
     /* display: flex; */
     justify-content: center;
-    background:var(--orange) ;
+    background:var(--principal) ;
     margin-left: 25px;
     border-radius: 50px;
 
@@ -118,7 +119,7 @@
 }
 
 .footer__info-net a > .fab:hover {
-    color: #ff9900;
+    color: var(--principal);
     transition: all 0.5s;
 }
 
@@ -152,7 +153,7 @@
 }
 
 .footer__copy {
-    background: #ff9900;
+    background: var(--hovermoda);
     height: 50px;
     text-align: center;
     display: flex;
